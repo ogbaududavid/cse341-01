@@ -2,9 +2,9 @@
 var express = require("express");
 var app = express();
 
-app.get("/", (req, res) => {
-    res.send("Francisca Ogbaudu");
-});
+const contorllers = require("./controllers/test");
+app.get("/", contorllers.route1);
+app.get("/route2", contorllers.route2)
 
 const port = 3000;
 
