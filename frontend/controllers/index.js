@@ -1,5 +1,6 @@
 const route1 = (req, res) => {
-    res.json("Francisca Ogbaudu");
+    req = require("../user.json");
+    res.json(req["data"]);
 };
 
 const route2 = (req, res) => {
