@@ -1,0 +1,24 @@
+{"contacts":{
+        "contact1":{
+            "firstName": " David",
+            "lastName": "Ogbaudu",
+            "email": "ogbaudu.dc@example.com",
+            "favoriteColor": "Black",
+            "birthday": "June 10"
+        },
+        "contact2":{
+            "firstName": "Godspower",
+            "lastName": "Ogbaudu",
+            "email": "godspower@example.com",
+            "favoriteColor": "Blue",
+            "birthday": "29 September"
+        },
+        "contact3":{
+            "firstName": "Princewill",
+            "lastName": "Ogbaudu",
+            "email": "princewill@example.com",
+            "favoriteColor": "White",
+            "birthday": "06 March"
+        }
+    }
+}
