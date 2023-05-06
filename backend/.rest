@@ -1,6 +1,6 @@
 //LOCAL HOST
 
-# GET http://localhost:8080/contacts
+#GET http://localhost:8080/contacts
 
 # GET http://localhost:8080/userContact/64563e8afb9488be694c1895
 # GET http://localhost:8080/userContact/64563e78fb9488be694bf3e2
