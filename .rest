@@ -19,39 +19,51 @@ GET https://cse341-services.onrender.com/contacts/650d6c962922cbd3a4cbbe39
  GET https://cse341-services.onrender.com/contacts/650d6cb22922cbd3a4cbfeb2
 
 
+
+
+
+
+
+
 //LOCAL WEEK 3
+###
+GET  http://localhost:8080/contacts/ HTTP/1.1 
 
 ###
 POST http://localhost:8080/contacts/ HTTP/1.1 
 content-type: application/json 
 
 {
-    "firstName": "David", 
-    "lastName":"Ogbaudu", 
-    "email":"ogbaudu.example@yahoo.com", 
-    "favoriteColor":"white", 
-    "birthday":"06/10/1990"
+    "firstName": "Jack", 
+    "lastName":"Sparrow", 
+    "email":"jack@yahoo.com", 
+    "favoriteColor":"Black", 
+    "birthday":"06/10/1970"
 }
 
 ###
-PUT http://localhost:8080/contacts/650d6c962922cbd3a4cbbe39 HTTP/1.1 
+PUT http://localhost:8080/contacts/650d6c732922cbd3a4cb8086 HTTP/1.1 
 content-type: application/json
 
 {
-    "firstName": "Jack", 
-    "lastName":"Sparrow", 
-    "email":"pirates@gmail.com", 
+    "firstName": "Elon", 
+    "lastName":"Musk", 
+    "email":"musk@gmail.com", 
     "favoriteColor":"black", 
     "birthday":"12-12-1980"
 } 
 
-
 ###
-DELETE http://localhost:8080/contacts/650d6c962922cbd3a4cbbe39 HTTP/1.1 
+DELETE http://localhost:8080/contacts/651816d9fea02f20ee714d13 HTTP/1.1 
 content-type: application/json
 
 
+
+
 // RENDER Week 3 
+###
+GET https://cse341-services.onrender.com/contacts/
+
 ###
 POST https://cse341-services.onrender.com/contacts/
 content-type: application/json 
@@ -65,17 +77,17 @@ content-type: application/json
 }
 
 ###
-PUT https://cse341-services.onrender.com/contacts/650d6c732922cbd3a4cb8086
+PUT https://cse341-services.onrender.com/contacts/65183a6bdaf21c68d7ac768f
 content-type: application/json 
 
 {
-    "firstName": "Francisca", 
-    "lastName":"Ogbaudu", 
-    "email":"franciscaexample@yahoo.com", 
-    "favoriteColor":"purple", 
-    "birthday":"06/10/1960"
+    "firstName": "Joseph", 
+    "lastName": "Smith", 
+    "email": "smith@yahoo.com", 
+    "favoriteColor": "White", 
+    "birthday": "06/10/1800"
 }
 
 ###
-DELETE https://cse341-services.onrender.com/contacts/650d6c962922cbd3a4cbbe39
+DELETE https://cse341-services.onrender.com/contacts/65183a2edaf21c68d7ac768d
 content-type: application/json
