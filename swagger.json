@@ -5,11 +5,9 @@
     "description": "An api that allows your retrive, post, and delete contacts from a server",
     "version": "1.0.0"
   },
-  "host": "https://cse341-services.onrender.com",
+  "host": "cse341-services.onrender.com",
   "basePath": "/",
-  "schemes": [
-    "http"
-  ],
+  "schemes": "https",
   "paths": {
     "/api-docs": {
       "get": {
