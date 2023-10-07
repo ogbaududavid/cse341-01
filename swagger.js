@@ -5,7 +5,7 @@ const doc = {
         title: "contacts API",
         description: "An api that allows your retrive, post, and delete contacts from a server"
     },
-    host: 'https://cse341-services.onrender.com',
+    host: 'cse341-services.onrender.com',
     schemes: 'https'
 }
 
