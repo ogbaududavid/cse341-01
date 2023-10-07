@@ -6,7 +6,7 @@ const doc = {
         description: "An api that allows your retrive, post, and delete contacts from a server"
     },
     host: 'https://cse341-services.onrender.com',
-    schemes: ['https']
+    schemes: 'https'
 }
 
 const outputFile = './swagger.json'
